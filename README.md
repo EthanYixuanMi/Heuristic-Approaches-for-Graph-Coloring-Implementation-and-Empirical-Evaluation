@@ -83,7 +83,7 @@ We observe:
 - Our Genetic Algorithm achieves 12 colors
 - Runtime difference is dramatic: GA is the slowest, greedy the fastest
 
-#### Figure: Algorithm Outputs + Performance Comparison
+#### Figure: Algorithm Outputs + Performance Comparison  
 ![Experiment 1](graph_coloring_project/img/exp1_random_comparison.png)  
 
 ### Experiment 2 — Challenging Graph Structures
@@ -99,6 +99,7 @@ Observations:
 - Greedy completely fails on Crown-8 (uses 8 colors instead of 2)
 - GA and DSatur both achieve optimal solutions for Crown graphs
 
+#### Figure: Algorithm behavior on structured graphs (Mycielski, Crown, Adversarial, Bipartite-like)  
 ![Experiment 2](graph_coloring_project/img/exp2_challenging_graphs.png)
 
 ### Experiment 3 — Scalability
@@ -110,6 +111,7 @@ Results:
 - GA performance is good but computationally expensive
 - Greedy is fastest but quality degrades with graph size
 
+#### Figure: Scalability of color usage and runtime as graph size increases   
 ![Experiment 3](graph_coloring_project/img/exp3_scalability.png)
 
 ### Experiment 4 — Density Analysis
@@ -120,6 +122,7 @@ As density increases:
 - DSatur remains the most robust
 - GA stays competitive but slow
 
+#### Figure: Impact of edge density on color requirements and runtime   
 ![Experiment 4](graph_coloring_project/img/exp4_density.png)
 
 ### Experiment 5 — Crown Graph Analysis (Adversarial for Greedy)
@@ -130,6 +133,7 @@ Crown graphs are bipartite and 2-colorable, but greedy performs extremely poorly
 
 This experiment highlights the importance of using intelligent heuristics.
 
+#### Figure: Performance on Crown graphs (worst-case for greedy)  
 ![Experiment 5](graph_coloring_project/img/exp5_crown_analysis.png)
 
 ### Experiment 6 — Statistical Analysis (30 Trials)
@@ -141,6 +145,7 @@ Results:
 - GA performs well but with high runtime variance
 - Greedy fluctuates but remains fast
 
+#### Figure: Distribution of color counts and runtimes over 30 trials  
 ![Experiment 6](graph_coloring_project/img/exp6_statistics.png)
 
 
