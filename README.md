@@ -174,9 +174,48 @@ You may edit `main.py` or directly call functions in
 `graph_coloring/experiments.py` to run individual experiments.
 
 
+## Conclusion
+This project demonstrates how different heuristic strategies behave on the graph coloring problem,
+ranging from simple greedy rules to more sophisticated methods such as DSatur and our improved GA.
+
+Key findings:
+
+- **Greedy algorithms are extremely fast but unreliable**, especially on adversarial structures.
+- **DSatur is the strongest classical heuristic**, consistently achieving the fewest colors.
+- **Our improved Genetic Algorithm shows competitive or superior coloring performance**, especially on complex or adversarial graphs.
+- Although GA is computationally expensive, it provides a **robust alternative** when greedy-based heuristics fail or when solution quality is prioritized over speed.
+
+Overall, the experiments highlight that **algorithmic design matters**:  
+small heuristic improvements can dramatically change solution quality and stability.
 
 
+## Limitations & Future Work
 
+While the improved GA delivers strong coloring results, it has several limitations:
+
+### Current Limitations
+- **High runtime cost** compared to greedy and DSatur  
+- **Variance in performance** across different runs due to stochastic operators  
+- **Not optimized for very large graphs** (n > 500)
+
+### Future Extensions
+- **Hybrid DSatur + GA approach**  
+  DSatur can generate high-quality initial populations, improving GA convergence.
+
+- **Local search integration (Tabu Search / Hill-Climbing)**  
+  Adding local refinement steps can reduce color conflicts more efficiently.
+
+- **Parallelized GA**  
+  Evaluating individuals in parallel (multiprocessing / GPU) can significantly reduce runtime.
+
+- **Testing on DIMACS benchmark datasets**  
+  Allows comparison with state-of-the-art coloring algorithms.
+
+- **Implementing crossover operators tailored to graph structure**  
+  Could further reduce conflicts and color count.
+
+These improvements would make the GA both **faster** and **more scalable**, while maintaining its
+advantage of producing high-quality colorings on difficult graph families.
 
 
 
