@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Equal%20Contribution-✔️-purple?style=flat" alt="Equal Contribution">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.8+">
-  <a href="https://github.com/EthanYixuanMi/Improved-GA-for-Graph-Color-Coloring/stargazers"><img src="https://img.shields.io/github/stars/EthanYixuanMi/Improved-GA-for-Graph-Coloring?style=flat&color=orange" alt="GitHub Stars"></a>
+  <a href="https://github.com/EthanYixuanMi/Improved-GA-for-Graph-Coloring/stargazers"><img src="https://img.shields.io/github/stars/EthanYixuanMi/Improved-GA-for-Graph-Coloring?style=flat&color=orange" alt="GitHub Stars"></a>
 </p>
 
 
