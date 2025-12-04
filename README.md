@@ -3,8 +3,10 @@
 <p align="left">
 
   <!-- School -->
-  <img src="https://img.shields.io/badge/Wenzhou--Kean%20University-005BBB?style=flat&logo=google-scholar&logoColor=white" alt="Wenzhou-Kean University">
-
+  <a href="https://wku.edu.cn">
+    <img src="https://img.shields.io/badge/Wenzhou--Kean%20University-005BBB?style=flat&logo=google-scholar&logoColor=white" alt="Wenzhou-Kean University">
+  </a>
+  
   <!-- Authors -->
   <a href="https://github.com/EthanYixuanMi">
     <img src="https://img.shields.io/badge/Author-Yixuan%20Mi-blue?style=flat" alt="Author: Yixuan Mi">
