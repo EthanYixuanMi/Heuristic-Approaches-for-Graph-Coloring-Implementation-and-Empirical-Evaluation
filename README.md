@@ -74,7 +74,7 @@ graph_coloring_project/
 ```  
 
 ### Quick Links to Source Files
-- [`graph_coloring/algorithms.py`](graph_coloring/algorithms.py)
+- [`graph_coloring/algorithms.py`](graph_coloring_project/graph_coloring/algorithms.py)
 - [`graph_coloring/graph_generators.py`](graph_coloring/graph_generators.py)
 - [`graph_coloring/evaluation.py`](graph_coloring/evaluation.py)
 - [`graph_coloring/visualization.py`](graph_coloring/visualization.py)
