@@ -23,8 +23,8 @@
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.8+">
 
   <!-- GitHub Stars -->
-  <a href="https://github.com/EthanYixuanMi/Improved-GA-for-Graph-Coloring/stargazers">
-    <img src="https://github.com/EthanYixuanMi/Improved-GA-for-Graph-Coloring/stargazers" alt="GitHub Stars">
+  <a href="https://github.com/EthanYixuanMi/Improved-GGA-for-Graph-Coloring/stargazers">
+    <img src="https://img.shields.io/github/stars/EthanYixuanMi/Improved-GA-for-Graph-Coloring?style=flat&color=orange" alt="GitHub Stars">
   </a>
 
 </p>
