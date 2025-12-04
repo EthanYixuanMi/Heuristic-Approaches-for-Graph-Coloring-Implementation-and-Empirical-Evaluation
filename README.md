@@ -14,9 +14,9 @@ A collection of classical heuristics and an improved Genetic Algorithm for solvi
   - [Experiment 4 — Density Analysis](#experiment-4--density-analysis)
   - [Experiment 5 — Crown Graph Analysis](#experiment-5--crown-graph-analysis-adversarial-for-greedy)
   - [Experiment 6 — Statistical Analysis](#experiment-6--statistical-analysis-30-trials)
-- [How to Run](#️how-to-run)
+- [How to Run](#️how--to-run)
 - [Conclusion](#conclusion)
-- [Limitations  Future Work](#limitations--future-work)
+- [Limitations & Future Work](#limitations--future-work)
 
 
 ## Project Overview
