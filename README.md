@@ -39,6 +39,23 @@ All figures saved under `img/`.
 
 
 ## Project Structure
+```
+graph_coloring_project/
+│
+├─ main.py                      # Entry point: runs all experiments
+├─ requirements.txt             # Python dependencies
+│
+└─ graph_coloring/
+   ├─ __init__.py
+   ├─ algorithms.py             # Implementations of all 6 algorithms
+   ├─ graph_generators.py       # Random, crown, mycielski, adversarial...
+   ├─ evaluation.py             # Unified algorithm runner + validity check
+   ├─ visualization.py          # Plot functions (bar charts, graph layouts)
+   └─ experiments.py            # All six experiments (exp1–exp6)
+│
+└─ img/                         # Auto-created: all experiment figures saved here
+```  
+
 
 ## Experimental Setup
 
